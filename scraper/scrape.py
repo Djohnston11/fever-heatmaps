@@ -106,7 +106,8 @@ def save_splits(splits):
     print(f"Saved -> {path}")
 
 if __name__ == "__main__":
-    shots = pd.read_csv(os.path.join(DATA_DIR, "shots.csv"))   # reuse saved data
+    shots = scrape_all_shots()
+    save_shots(shots)
     splits = build_splits(shots)
     save_splits(splits)
-    print(splits.to_string(index=False))
+    print("Done.")
