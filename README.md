@@ -6,7 +6,7 @@ Interactive shot charts and a shooting-efficiency dashboard for the WNBA's India
 
     WNBA stats API - local scraper - data/*.csv - streamlit dashboard
 
-The scraper runs locally, pulls shot-level data, and writes CSV files committed to the repo. The dashboard only reads those files, so the public app stays fast and reliable. 
+The scraper runs locally, pulls shot-level data, and writes CSV files committed to the repo. The dashboard only reads those files
 
 ## Quick start
 
